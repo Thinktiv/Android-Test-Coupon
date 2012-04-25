@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_merchant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:text="Fill Details and Click Add."
+        android:textColor="#444444"
+        android:textSize="10pt" />
+    <Button
+        android:id="@+id/btn_add_c"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_merchant"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="110dip"
+        android:text="Add" />
+    <TextView
+        android:id="@+id/tv_c_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#444444"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="9dip"
+        android:layout_below="@id/btn_add_c"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:text="Coupon Desc:"/>
+    <EditText
+        android:id="@+id/et_c_name"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_toRightOf="@id/tv_c_name"
+        android:layout_below="@id/tv_c_name"
+        android:layout_alignTop="@id/tv_c_name"/>
+    <TextView
+        android:id="@+id/tv_cat_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#444444"
+        android:layout_below="@id/et_c_name"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:text="Category:"/>
+    <EditText
+        android:id="@+id/et_cat_name"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_toRightOf="@id/tv_cat_name"
+        android:layout_below="@id/tv_cat_name"
+        android:layout_alignTop="@id/tv_cat_name"/>
+    <TextView
+        android:id="@+id/tv_c_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#444444"
+        android:layout_below="@id/et_cat_name"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:text="Coupon Code:"/>
+    <EditText
+        android:id="@+id/et_c_code"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_toRightOf="@id/tv_c_code"
+        android:layout_below="@id/tv_c_code"
+        android:layout_alignTop="@id/tv_c_code"/>
+    
+</RelativeLayout>

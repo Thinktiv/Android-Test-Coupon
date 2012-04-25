@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/tv_un1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#444444"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:text="User Name:"/>
+    <EditText
+        android:id="@+id/et_un1"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_toRightOf="@id/tv_un1"
+        android:layout_alignTop="@id/tv_un1"/>
+     <TextView
+        android:id="@+id/tv_pw1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#444444"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_un1"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="10dip"
+        android:text="Password:"/>
+    <EditText
+        android:id="@+id/et_pw1"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_toRightOf="@id/tv_pw1"
+        android:layout_alignTop="@id/tv_pw1"
+        android:layout_below="@id/et_un1"
+        android:layout_marginLeft="17dip"
+        android:password="true"        />
+     <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#444444"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_pw1"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="10dip"
+        android:text="Email-Id:"/>
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_toRightOf="@id/tv_email"
+        android:layout_alignTop="@id/tv_email"
+        android:layout_below="@id/et_pw1"
+        android:layout_marginLeft="17dip"    />
+    <CheckBox
+        android:id="@+id/merchant"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_email"
+        android:textColor="#FFFFFF"
+        android:text="Are You a Merchant ?" />    
+    <Button
+        android:id="@+id/btn_login1"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/merchant"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="45dip"
+        android:layout_marginLeft="110dip"
+        android:text="SignUp" />
+     <TextView
+        android:id="@+id/tv_error1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:textSize="7pt"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/btn_login1"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="15dip"
+        android:textColor="#AA0000"
+        android:text=""/>
+
+</RelativeLayout>

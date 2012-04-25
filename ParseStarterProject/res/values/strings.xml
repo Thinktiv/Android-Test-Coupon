@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ParseStarterProjectActivity!</string>
+    <string name="app_name">ParseStarterProject</string>
+    <string name="app_page1">Sign Up</string>
+    <string name="app_login">Login</string>
+    <string name="app_merchant">Merchant</string>
+    <string name="app_user">User</string>
+    <string name="app_coupon">Coupon info</string>
+</resources>

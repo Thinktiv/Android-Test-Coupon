@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tv_un2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#444444"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:text="User Name:"/>
+    <EditText
+        android:id="@+id/et_un2"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_toRightOf="@id/tv_un2"
+        android:layout_alignTop="@id/tv_un2"/>
+     <TextView
+        android:id="@+id/tv_pw2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#444444"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_un2"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="10dip"
+        android:text="Password:"/>
+    <EditText
+        android:id="@+id/et_pw2"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_toRightOf="@id/tv_pw2"
+        android:layout_alignTop="@id/tv_pw2"
+        android:layout_below="@id/et_un2"
+        android:layout_marginLeft="17dip"
+        android:password="true"        />
+    <Button
+        android:id="@+id/btn_login2"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_pw2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="110dip"
+        android:text="Login" />
+
+</RelativeLayout>
